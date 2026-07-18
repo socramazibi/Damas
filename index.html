@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Damas Españolas — 2 jugadores</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="topbar">
+      <div id="controls">
+        <button id="back" title="Atrás">←</button>
+        <button id="restart">Reiniciar</button>
+      </div>
+      <div id="turn">Turno: <span id="playerName">Blancas</span></div>
+      <div id="timer">Tiempo: <span id="chrono">00:00</span></div>
+    </div>
+
+    <div id="board" role="grid" aria-label="Tablero de damas"></div>
+
+    <div id="status" aria-live="polite"></div>
+  </div>
+
+  <script type="module" src="game.js"></script>
+</body>
+</html>
