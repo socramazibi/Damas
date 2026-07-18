@@ -1,2 +1,4 @@
 # Damas
-Juego damas creado con IA ChatGPT
+Juego damas creado con IA websim
+
+https://websim.com/
